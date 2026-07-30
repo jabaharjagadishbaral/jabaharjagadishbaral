@@ -16,19 +16,6 @@ Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — alway
 
 ---
 
-### 🚀 Featured Projects
-
-| Project | Description |
-|---|---|
-| [Customer Churn Analysis Dashboard](https://github.com/jabaharjagadishbaral) | End-to-end churn prediction pipeline (IBM Telco dataset) — Random Forest at 84.3% AUC-ROC, deployed via Streamlit |
-| [Titanic Survival Predictor](https://github.com/jabaharjagadishbaral) | Multi-model benchmark on the Titanic dataset, packaged behind a browser-based prediction UI |
-| [ATM Interface](https://github.com/jabaharjagadishbaral) | Java-based ATM simulation with authentication and transaction state handling |
-| [Student Grade Calculator](https://github.com/jabaharjagadishbaral) | Java grade calculator built with extensible conditional logic |
-| [Number Guessing Game](https://github.com/jabaharjagadishbaral) | Interactive Java console game with clean input validation |
-| [Personal Portfolio Site](https://github.com/jabaharjagadishbaral) | HTML/CSS portfolio hosted on GitHub Pages |
-
----
-
 ### 📊 GitHub Stats
 
 ![GitHub stats](stats.svg?v=1)
