@@ -10,37 +10,30 @@
     <rect width="480" height="200" fill="#111827"/>
     <text x="20" y="30" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">GitHub Stats</text>
 
-    <!-- rank ring -->
     <g transform="translate(90,115)">
       <circle r="55" fill="none" stroke="#ffffff10" stroke-width="10"/>
       <circle r="55" fill="none" stroke="url(#ringGrad)" stroke-width="10" stroke-linecap="round"
         stroke-dasharray="345" stroke-dashoffset="345" transform="rotate(-90)">
-        <animate attributeName="stroke-dashoffset" from="345" to="72" dur="1.6s" begin="0.3s" fill="freeze"/>
+        <animate attributeName="stroke-dashoffset" from="345" to="60" dur="1.6s" begin="0.3s" fill="freeze"/>
       </circle>
-      <text text-anchor="middle" dy="8" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">A+</text>
+      <text text-anchor="middle" dy="-2" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">31</text>
+      <text text-anchor="middle" dy="16" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#93c5fd">commits/yr</text>
     </g>
 
-    <!-- stat rows -->
     <g font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#c4b5fd">
-      <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.6s" fill="freeze"/>
-        <text x="190" y="60">⭐ Total Stars</text>
-        <text x="440" y="60" text-anchor="end" fill="#38bdf8">held</text>
-      </g>
-      <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.8s" fill="freeze"/>
-        <text x="190" y="90">📦 Total Commits</text>
-        <text x="440" y="90" text-anchor="end" fill="#38bdf8">active</text>
-      </g>
-      <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1s" fill="freeze"/>
-        <text x="190" y="120">🔀 Pull Requests</text>
-        <text x="440" y="120" text-anchor="end" fill="#93c5fd">merged</text>
-      </g>
-      <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.2s" fill="freeze"/>
-        <text x="190" y="150">🐛 Issues</text>
-        <text x="440" y="150" text-anchor="end" fill="#93c5fd">tracked</text>
-      </g>
-      <g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.4s" fill="freeze"/>
-        <text x="190" y="180">🔥 Contribution streak</text>
-      </g>
+      <text x="190" y="60">⭐ Total Stars</text>
+      <text x="440" y="60" text-anchor="end" fill="#38bdf8">20</text>
+
+      <text x="190" y="90">📦 Repos</text>
+      <text x="440" y="90" text-anchor="end" fill="#38bdf8">7</text>
+
+      <text x="190" y="120">🔀 Pull Requests</text>
+      <text x="440" y="120" text-anchor="end" fill="#93c5fd">0</text>
+
+      <text x="190" y="150">🐛 Issues</text>
+      <text x="440" y="150" text-anchor="end" fill="#93c5fd">0</text>
+
+      <text x="190" y="180">🔥 Streak: 4d current / 4d best</text>
     </g>
   </g>
 </svg>
