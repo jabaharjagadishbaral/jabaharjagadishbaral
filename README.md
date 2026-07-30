@@ -1,16 +1,64 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**jabaharjagadishbaral/jabaharjagadishbaral** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
+  <img alt="Jabahar Jagadish Baral banner" src="banner.svg?v=1">
+</picture>
 
-Here are some ideas to get you started:
+<img src="lanyard.svg?v=1" alt="ID badge" width="220"/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📌 About Me
+🎓 B.Tech CSE student (2023–2027) with hands-on internship experience in Python, Java, and Machine Learning.
+Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — always shipping something new.
+
+</div>
+
+---
+
+### 🚀 Featured Projects
+
+| Project | Description |
+|---|---|
+| [Customer Churn Analysis Dashboard](https://github.com/jabaharjagadishbaral) | End-to-end churn prediction pipeline (IBM Telco dataset) — Random Forest at 84.3% AUC-ROC, deployed via Streamlit |
+| [Titanic Survival Predictor](https://github.com/jabaharjagadishbaral) | Multi-model benchmark on the Titanic dataset, packaged behind a browser-based prediction UI |
+| [ATM Interface](https://github.com/jabaharjagadishbaral) | Java-based ATM simulation with authentication and transaction state handling |
+| [Student Grade Calculator](https://github.com/jabaharjagadishbaral) | Java grade calculator built with extensible conditional logic |
+| [Number Guessing Game](https://github.com/jabaharjagadishbaral) | Interactive Java console game with clean input validation |
+| [Personal Portfolio Site](https://github.com/jabaharjagadishbaral) | HTML/CSS portfolio hosted on GitHub Pages |
+
+---
+
+### 📊 GitHub Stats
+
+![GitHub stats](stats.svg?v=1)
+
+![Top languages](langs.svg?v=1)
+
+![Trophies](trophies.svg?v=1)
+
+---
+
+### 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jabaharjagadishbaral/jabaharjagadishbaral/output/github-contribution-grid-snake-dark.svg?v=1">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jabaharjagadishbaral/jabaharjagadishbaral/output/github-contribution-grid-snake.svg?v=1">
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/jabaharjagadishbaral/jabaharjagadishbaral/output/github-contribution-grid-snake.svg?v=1"/>
+  </picture>
+</p>
+
+---
+
+### 🔗 Connect
+
+<p align="center">
+  <a href="https://github.com/jabaharjagadishbaral"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=jabaharjagadishbaral&style=for-the-badge&color=c04cff" alt="profile views"/>
+</p>
+

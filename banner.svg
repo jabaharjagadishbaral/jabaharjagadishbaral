@@ -1,0 +1,247 @@
+<svg width="1280" height="600" viewBox="0 0 1280 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="roundedDark">
+      <rect width="1280" height="600" rx="24" ry="24"/>
+    </clipPath>
+    <linearGradient id="bgGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="nameGradDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb">
+        <animate attributeName="offset" values="0;0.4;0" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#7c3aed">
+        <animate attributeName="offset" values="0.5;0.9;0.5" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <filter id="neonGlowDark" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlowDark" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <linearGradient id="scanGradDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2563eb" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#roundedDark)">
+    <rect width="1280" height="600" fill="url(#bgGradDark)"/>
+
+    <!-- floating ambient particles -->
+    <g opacity="0.6">
+      <circle cx="120" cy="80" r="2" fill="#60a5fa">
+        <animate attributeName="cy" values="80;40;80" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2;0.9;0.2" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1180" cy="120" r="2.5" fill="#7c3aed">
+        <animate attributeName="cy" values="120;70;120" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1080" cy="480" r="3" fill="#2563eb">
+        <animate attributeName="cy" values="480;430;480" dur="5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2;0.8;0.2" dur="5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="80" cy="500" r="2" fill="#38bdf8">
+        <animate attributeName="cy" values="500;460;500" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2;0.9;0.2" dur="8s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M1150 350 l3 -8 3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 z" fill="#ffffff" opacity="0.7">
+        <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+      </path>
+      <path d="M60 200 l2.5 -6 2.5 6 6 2.5 -6 2.5 -2.5 6 -2.5 -6 -6 -2.5 z" fill="#ffffff" opacity="0.6">
+        <animate attributeName="opacity" values="0;1;0" dur="2.4s" begin="0.6s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- terminal line -->
+    <g font-family="Consolas, Menlo, monospace" font-size="18" fill="#38bdf8">
+      <text x="48" y="55">
+        <tspan>user@dev:~$ cat README.md</tspan>
+        <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="0s" fill="freeze"/>
+      </text>
+      <rect x="330" y="40" width="10" height="20" fill="#38bdf8">
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- name -->
+    <text x="48" y="150" font-family="Brush Script MT, cursive, sans-serif" font-size="64" font-weight="bold" fill="url(#nameGradDark)">
+      <tspan opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1s" fill="freeze"/>Jabahar Jagadish Baral</tspan>
+    </text>
+
+    <!-- cycling role titles -->
+    <g font-family="Consolas, Menlo, monospace" font-size="26" fill="#c4b5fd">
+      <text x="48" y="195" opacity="0">
+        CS Student
+        <animate attributeName="opacity" values="0;1;1;0;0;0;0;0" keyTimes="0;0.05;0.2;0.25;0.5;0.75;0.95;1" dur="8s" repeatCount="indefinite"/>
+      </text>
+      <text x="48" y="195" opacity="0">
+        Python &amp; ML Developer
+        <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.05;0.2;0.25;0.5;0.75;0.95;1" dur="8s" repeatCount="indefinite"/>
+      </text>
+      <text x="48" y="195" opacity="0">
+        Full-Stack Enthusiast
+        <animate attributeName="opacity" values="1;0;0;0;0;0;0;1" keyTimes="0;0.05;0.2;0.25;0.5;0.75;0.95;1" dur="8s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- quote / tagline box -->
+    <rect x="46" y="215" width="560" height="46" rx="10" fill="#ffffff" fill-opacity="0.05" stroke="#7c3aed" stroke-opacity="0.5"/>
+    <text x="64" y="244" font-family="Consolas, Menlo, monospace" font-size="16" fill="#c4b5fd">
+      "Turning data into decisions, one commit at a time."
+    </text>
+
+    <!-- tech pills -->
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold">
+      <g>
+        <rect x="48" y="280" width="76" height="30" rx="15" fill="#2563eb" fill-opacity="0.18" stroke="#2563eb" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.4s" fill="freeze"/>
+        </rect>
+        <text x="63" y="300" fill="#93c5fd" opacity="0">Python<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.4s" fill="freeze"/></text>
+      </g>
+      <g>
+        <rect x="132" y="280" width="60" height="30" rx="15" fill="#7c3aed" fill-opacity="0.18" stroke="#7c3aed" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.55s" fill="freeze"/>
+        </rect>
+        <text x="146" y="300" fill="#93c5fd" opacity="0">Java<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.55s" fill="freeze"/></text>
+      </g>
+      <g>
+        <rect x="200" y="280" width="102" height="30" rx="15" fill="#38bdf8" fill-opacity="0.18" stroke="#38bdf8" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.7s" fill="freeze"/>
+        </rect>
+        <text x="214" y="300" fill="#93c5fd" opacity="0">JavaScript<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.7s" fill="freeze"/></text>
+      </g>
+      <g>
+        <rect x="310" y="280" width="60" height="30" rx="15" fill="#38bdf8" fill-opacity="0.18" stroke="#38bdf8" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.85s" fill="freeze"/>
+        </rect>
+        <text x="324" y="300" fill="#93c5fd" opacity="0">React<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.85s" fill="freeze"/></text>
+      </g>
+      <g>
+        <rect x="378" y="280" width="80" height="30" rx="15" fill="#38bdf8" fill-opacity="0.18" stroke="#38bdf8" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2s" fill="freeze"/>
+        </rect>
+        <text x="392" y="300" fill="#93c5fd" opacity="0">FastAPI<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2s" fill="freeze"/></text>
+      </g>
+      <g>
+        <rect x="466" y="280" width="112" height="30" rx="15" fill="#38bdf8" fill-opacity="0.18" stroke="#38bdf8" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.15s" fill="freeze"/>
+        </rect>
+        <text x="480" y="300" fill="#93c5fd" opacity="0">Spring Boot<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.15s" fill="freeze"/></text>
+      </g>
+      <g>
+        <rect x="48" y="322" width="130" height="30" rx="15" fill="#2563eb" fill-opacity="0.18" stroke="#2563eb" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.3s" fill="freeze"/>
+        </rect>
+        <text x="62" y="342" fill="#93c5fd" opacity="0">Machine Learning<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.3s" fill="freeze"/></text>
+      </g>
+      <g>
+        <rect x="188" y="322" width="54" height="30" rx="15" fill="#7c3aed" fill-opacity="0.18" stroke="#7c3aed" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.45s" fill="freeze"/>
+        </rect>
+        <text x="202" y="342" fill="#93c5fd" opacity="0">SQL<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.45s" fill="freeze"/></text>
+      </g>
+      <g>
+        <rect x="252" y="322" width="54" height="30" rx="15" fill="#38bdf8" fill-opacity="0.18" stroke="#38bdf8" opacity="0">
+          <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.6s" fill="freeze"/>
+        </rect>
+        <text x="266" y="342" fill="#93c5fd" opacity="0">Git<animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.6s" fill="freeze"/></text>
+      </g>
+    </g>
+
+    <!-- animated skill bars -->
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#c4b5fd">
+      <text x="48" y="392">Python</text>
+      <rect x="130" y="380" width="220" height="10" rx="5" fill="#ffffff" fill-opacity="0.08"/>
+      <rect x="130" y="380" height="10" rx="5" fill="#2563eb" width="0">
+        <animate attributeName="width" from="0" to="198" dur="1.4s" begin="2.8s" fill="freeze"/>
+      </rect>
+
+      <text x="48" y="418">Machine Learning</text>
+      <rect x="200" y="406" width="150" height="10" rx="5" fill="#ffffff" fill-opacity="0.08"/>
+      <rect x="200" y="406" height="10" rx="5" fill="#7c3aed" width="0">
+        <animate attributeName="width" from="0" to="120" dur="1.4s" begin="2.95s" fill="freeze"/>
+      </rect>
+
+      <text x="48" y="444">Java</text>
+      <rect x="110" y="432" width="240" height="10" rx="5" fill="#ffffff" fill-opacity="0.08"/>
+      <rect x="110" y="432" height="10" rx="5" fill="#38bdf8" width="0">
+        <animate attributeName="width" from="0" to="180" dur="1.4s" begin="3.1s" fill="freeze"/>
+      </rect>
+
+      <text x="48" y="470">Web Dev</text>
+      <rect x="130" y="458" width="220" height="10" rx="5" fill="#ffffff" fill-opacity="0.08"/>
+      <rect x="130" y="458" height="10" rx="5" fill="#38bdf8" width="0">
+        <animate attributeName="width" from="0" to="168" dur="1.4s" begin="3.25s" fill="freeze"/>
+      </rect>
+    </g>
+
+    <!-- code editor card -->
+    <g>
+      <rect x="640" y="80" width="580" height="260" rx="14" fill="#0f172a" stroke="#7c3aed" stroke-opacity="0.4"/>
+      <circle cx="662" cy="102" r="6" fill="#ff5f56"/>
+      <circle cx="682" cy="102" r="6" fill="#ffbd2e"/>
+      <circle cx="702" cy="102" r="6" fill="#27c93f"/>
+      <text x="1180" y="107" font-family="Consolas, monospace" font-size="12" fill="#9ca3af" text-anchor="end">buildDreams.js</text>
+
+      <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#c4b5fd">
+        <g clip-path="url(#clipL1)">
+          <clipPath id="clipL1"><rect x="662" y="128" height="24" width="0"><animate attributeName="width" from="0" to="520" dur="0.8s" begin="1.2s" fill="freeze"/></rect></clipPath>
+          <text x="662" y="145" fill="#93c5fd">function <tspan fill="#38bdf8">buildDreams</tspan>() {</text>
+        </g>
+        <g clip-path="url(#clipL2)">
+          <clipPath id="clipL2"><rect x="662" y="158" height="24" width="0"><animate attributeName="width" from="0" to="520" dur="0.8s" begin="1.9s" fill="freeze"/></rect></clipPath>
+          <text x="686" y="175">const <tspan fill="#38bdf8">skills</tspan> = ['Python','ML','Java'];</text>
+        </g>
+        <g clip-path="url(#clipL3)">
+          <clipPath id="clipL3"><rect x="662" y="188" height="24" width="0"><animate attributeName="width" from="0" to="520" dur="0.8s" begin="2.6s" fill="freeze"/></rect></clipPath>
+          <text x="686" y="205" fill="#c4b5fd">return skills.<tspan fill="#7c3aed">map</tspan>(s =&gt; learn(s));</text>
+        </g>
+        <g clip-path="url(#clipL4)">
+          <clipPath id="clipL4"><rect x="662" y="218" height="24" width="0"><animate attributeName="width" from="0" to="520" dur="0.6s" begin="3.3s" fill="freeze"/></rect></clipPath>
+          <text x="662" y="235">}</text>
+        </g>
+      </g>
+
+      <rect x="662" y="268" width="536" height="1" fill="#7c3aed" fill-opacity="0.2"/>
+      <text x="662" y="300" font-family="Consolas, monospace" font-size="13" fill="#9ca3af">
+        &gt; output: ['learning...', 'building...', 'shipping...']
+      </text>
+    </g>
+
+    <!-- neon sign -->
+    <text x="660" y="400" font-family="Impact, Arial Black, sans-serif" font-size="34" fill="#2563eb" filter="url(#neonGlowDark)">
+      KEEP CODING · KEEP GROWING
+      <animate attributeName="opacity" values="1;1;0.4;1;1;0.5;1" keyTimes="0;0.3;0.33;0.36;0.7;0.73;1" dur="4s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- floating hearts -->
+    <g fill="#60a5fa" opacity="0.7">
+      <path d="M700 480 c-10,-12 -30,-2 -22,14 c5,10 22,22 22,22 c0,0 17,-12 22,-22 c8,-16 -12,-26 -22,-14 z">
+        <animate attributeName="opacity" values="0;0.7;0" dur="4s" begin="0s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,-40" dur="4s" begin="0s" repeatCount="indefinite"/>
+      </path>
+      <path d="M900 500 c-8,-10 -24,-2 -18,11 c4,8 18,18 18,18 c0,0 14,-10 18,-18 c6,-13 -10,-21 -18,-11 z">
+        <animate attributeName="opacity" values="0;0.7;0" dur="5s" begin="1.5s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0;0,-40" dur="5s" begin="1.5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- scanner sweep -->
+    <rect x="0" y="-100" width="1280" height="100" fill="url(#scanGradDark)">
+      <animate attributeName="y" values="-100;600" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="1" y="1" width="1278" height="598" rx="23" fill="none" stroke="#7c3aed" stroke-opacity="0.25"/>
+  </g>
+</svg>

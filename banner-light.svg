@@ -1,0 +1,129 @@
+<svg width="1280" height="600" viewBox="0 0 1280 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="roundedLight">
+      <rect width="1280" height="600" rx="24" ry="24"/>
+    </clipPath>
+    <linearGradient id="bgGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="50%" stop-color="#e0e7ff"/>
+      <stop offset="100%" stop-color="#f5f3ff"/>
+    </linearGradient>
+    <linearGradient id="nameGradLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1d4ed8"/>
+      <stop offset="50%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="scanGradLight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6d28d9" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#6d28d9" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#6d28d9" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#roundedLight)">
+    <rect width="1280" height="600" fill="url(#bgGradLight)"/>
+
+    <g font-family="Consolas, Menlo, monospace" font-size="18" fill="#0369a1">
+      <text x="48" y="55">user@dev:~$ cat README.md</text>
+      <rect x="330" y="40" width="10" height="20" fill="#0369a1">
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <text x="48" y="150" font-family="Brush Script MT, cursive, sans-serif" font-size="64" font-weight="bold" fill="url(#nameGradLight)">
+      Jabahar Jagadish Baral
+    </text>
+
+    <g font-family="Consolas, Menlo, monospace" font-size="26" fill="#312e81">
+      <text x="48" y="195" opacity="0">
+        CS Student
+        <animate attributeName="opacity" values="0;1;1;0;0;0;0;0" keyTimes="0;0.05;0.2;0.25;0.5;0.75;0.95;1" dur="8s" repeatCount="indefinite"/>
+      </text>
+      <text x="48" y="195" opacity="0">
+        Python &amp; ML Developer
+        <animate attributeName="opacity" values="0;0;0;0;1;1;0;0" keyTimes="0;0.05;0.2;0.25;0.5;0.75;0.95;1" dur="8s" repeatCount="indefinite"/>
+      </text>
+      <text x="48" y="195" opacity="0">
+        Full-Stack Enthusiast
+        <animate attributeName="opacity" values="1;0;0;0;0;0;0;1" keyTimes="0;0.05;0.2;0.25;0.5;0.75;0.95;1" dur="8s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <rect x="46" y="215" width="560" height="46" rx="10" fill="#ffffff" fill-opacity="0.6" stroke="#6d28d9" stroke-opacity="0.35"/>
+    <text x="64" y="244" font-family="Consolas, Menlo, monospace" font-size="16" fill="#4338ca">
+      "Turning data into decisions, one commit at a time."
+    </text>
+
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold">
+      <rect x="48" y="280" width="76" height="30" rx="15" fill="#dbeafe" stroke="#1d4ed8"/>
+      <text x="63" y="300" fill="#1e40af">Python</text>
+      <rect x="132" y="280" width="60" height="30" rx="15" fill="#ede9fe" stroke="#6d28d9"/>
+      <text x="146" y="300" fill="#5b21b6">Java</text>
+      <rect x="200" y="280" width="102" height="30" rx="15" fill="#e0f2fe" stroke="#0369a1"/>
+      <text x="214" y="300" fill="#0369a1">JavaScript</text>
+      <rect x="310" y="280" width="60" height="30" rx="15" fill="#e0f2fe" stroke="#0284c7"/>
+      <text x="324" y="300" fill="#0284c7">React</text>
+      <rect x="378" y="280" width="80" height="30" rx="15" fill="#e0e7ff" stroke="#4338ca"/>
+      <text x="392" y="300" fill="#4338ca">FastAPI</text>
+      <rect x="466" y="280" width="112" height="30" rx="15" fill="#e0e7ff" stroke="#4338ca"/>
+      <text x="480" y="300" fill="#4338ca">Spring Boot</text>
+      <rect x="48" y="322" width="130" height="30" rx="15" fill="#dbeafe" stroke="#1d4ed8"/>
+      <text x="62" y="342" fill="#1e40af">Machine Learning</text>
+      <rect x="188" y="322" width="54" height="30" rx="15" fill="#ede9fe" stroke="#6d28d9"/>
+      <text x="202" y="342" fill="#5b21b6">SQL</text>
+      <rect x="252" y="322" width="54" height="30" rx="15" fill="#e0f2fe" stroke="#0369a1"/>
+      <text x="266" y="342" fill="#0369a1">Git</text>
+    </g>
+
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#312e81">
+      <text x="48" y="392">Python</text>
+      <rect x="130" y="380" width="220" height="10" rx="5" fill="#00000010"/>
+      <rect x="130" y="380" height="10" rx="5" fill="#1d4ed8" width="0">
+        <animate attributeName="width" from="0" to="198" dur="1.4s" begin="0.6s" fill="freeze"/>
+      </rect>
+      <text x="48" y="418">Machine Learning</text>
+      <rect x="200" y="406" width="150" height="10" rx="5" fill="#00000010"/>
+      <rect x="200" y="406" height="10" rx="5" fill="#6d28d9" width="0">
+        <animate attributeName="width" from="0" to="120" dur="1.4s" begin="0.75s" fill="freeze"/>
+      </rect>
+      <text x="48" y="444">Java</text>
+      <rect x="110" y="432" width="240" height="10" rx="5" fill="#00000010"/>
+      <rect x="110" y="432" height="10" rx="5" fill="#4338ca" width="0">
+        <animate attributeName="width" from="0" to="180" dur="1.4s" begin="0.9s" fill="freeze"/>
+      </rect>
+      <text x="48" y="470">Web Dev</text>
+      <rect x="130" y="458" width="220" height="10" rx="5" fill="#00000010"/>
+      <rect x="130" y="458" height="10" rx="5" fill="#0369a1" width="0">
+        <animate attributeName="width" from="0" to="168" dur="1.4s" begin="1.05s" fill="freeze"/>
+      </rect>
+    </g>
+
+    <g>
+      <rect x="640" y="80" width="580" height="260" rx="14" fill="#ffffff" stroke="#6d28d9" stroke-opacity="0.25"/>
+      <circle cx="662" cy="102" r="6" fill="#ff5f56"/>
+      <circle cx="682" cy="102" r="6" fill="#ffbd2e"/>
+      <circle cx="702" cy="102" r="6" fill="#27c93f"/>
+      <text x="1180" y="107" font-family="Consolas, monospace" font-size="12" fill="#94a3b8" text-anchor="end">buildDreams.js</text>
+      <g font-family="Consolas, Menlo, monospace" font-size="16" fill="#1e293b">
+        <text x="662" y="145" fill="#1d4ed8">function <tspan fill="#4338ca">buildDreams</tspan>() {</text>
+        <text x="686" y="175">const <tspan fill="#0369a1">skills</tspan> = ['Python','ML','Java'];</text>
+        <text x="686" y="205">return skills.<tspan fill="#6d28d9">map</tspan>(s =&gt; learn(s));</text>
+        <text x="662" y="235">}</text>
+      </g>
+      <rect x="662" y="268" width="536" height="1" fill="#6d28d9" fill-opacity="0.15"/>
+      <text x="662" y="300" font-family="Consolas, monospace" font-size="13" fill="#94a3b8">
+        &gt; output: ['learning...', 'building...', 'shipping...']
+      </text>
+    </g>
+
+    <text x="660" y="400" font-family="Impact, Arial Black, sans-serif" font-size="34" fill="#1d4ed8">
+      KEEP CODING · KEEP GROWING
+    </text>
+
+    <rect x="0" y="-100" width="1280" height="100" fill="url(#scanGradLight)">
+      <animate attributeName="y" values="-100;600" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="1" y="1" width="1278" height="598" rx="23" fill="none" stroke="#6d28d9" stroke-opacity="0.2"/>
+  </g>
+</svg>
