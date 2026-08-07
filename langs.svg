@@ -6,28 +6,28 @@
     <g font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#c4b5fd">
       <text x="20" y="58">HTML</text>
       <rect x="90" y="48" width="360" height="12" rx="6" fill="#ffffff10"/>
-      <rect x="90" y="48" height="12" rx="6" fill="#e34c26" width="0"><animate attributeName="width" from="0" to="144" dur="1s" begin="0.3s" fill="freeze"/></rect>
-      <text x="460" y="58" text-anchor="end">40.0%</text>
+      <rect x="90" y="48" height="12" rx="6" fill="#e34c26" width="0"><animate attributeName="width" from="0" to="129" dur="1s" begin="0.3s" fill="freeze"/></rect>
+      <text x="460" y="58" text-anchor="end">35.9%</text>
 
       <text x="20" y="88">JavaScript</text>
       <rect x="90" y="78" width="360" height="12" rx="6" fill="#ffffff10"/>
-      <rect x="90" y="78" height="12" rx="6" fill="#f1e05a" width="0"><animate attributeName="width" from="0" to="90" dur="1s" begin="0.5s" fill="freeze"/></rect>
-      <text x="460" y="88" text-anchor="end">25.0%</text>
+      <rect x="90" y="78" height="12" rx="6" fill="#f1e05a" width="0"><animate attributeName="width" from="0" to="107" dur="1s" begin="0.5s" fill="freeze"/></rect>
+      <text x="460" y="88" text-anchor="end">29.8%</text>
 
       <text x="20" y="118">Python</text>
       <rect x="90" y="108" width="360" height="12" rx="6" fill="#ffffff10"/>
-      <rect x="90" y="108" height="12" rx="6" fill="#3776ab" width="0"><animate attributeName="width" from="0" to="61" dur="1s" begin="0.7s" fill="freeze"/></rect>
-      <text x="460" y="118" text-anchor="end">16.9%</text>
+      <rect x="90" y="108" height="12" rx="6" fill="#3776ab" width="0"><animate attributeName="width" from="0" to="63" dur="1s" begin="0.7s" fill="freeze"/></rect>
+      <text x="460" y="118" text-anchor="end">17.5%</text>
 
       <text x="20" y="148">TypeScript</text>
       <rect x="90" y="138" width="360" height="12" rx="6" fill="#ffffff10"/>
-      <rect x="90" y="138" height="12" rx="6" fill="#3178c6" width="0"><animate attributeName="width" from="0" to="40" dur="1s" begin="0.9000000000000001s" fill="freeze"/></rect>
-      <text x="460" y="148" text-anchor="end">11.2%</text>
+      <rect x="90" y="138" height="12" rx="6" fill="#3178c6" width="0"><animate attributeName="width" from="0" to="36" dur="1s" begin="0.9000000000000001s" fill="freeze"/></rect>
+      <text x="460" y="148" text-anchor="end">10.0%</text>
 
-      <text x="20" y="178">Java</text>
+      <text x="20" y="178">CSS</text>
       <rect x="90" y="168" width="360" height="12" rx="6" fill="#ffffff10"/>
-      <rect x="90" y="168" height="12" rx="6" fill="#e76f00" width="0"><animate attributeName="width" from="0" to="10" dur="1s" begin="1.1s" fill="freeze"/></rect>
-      <text x="460" y="178" text-anchor="end">2.8%</text>
+      <rect x="90" y="168" height="12" rx="6" fill="#563d7c" width="0"><animate attributeName="width" from="0" to="9" dur="1s" begin="1.1s" fill="freeze"/></rect>
+      <text x="460" y="178" text-anchor="end">2.6%</text>
 
     </g>
   </g>
