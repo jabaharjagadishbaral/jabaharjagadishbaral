@@ -16,7 +16,7 @@
         stroke-dasharray="345" stroke-dashoffset="345" transform="rotate(-90)">
         <animate attributeName="stroke-dashoffset" from="345" to="60" dur="1.6s" begin="0.3s" fill="freeze"/>
       </circle>
-      <text text-anchor="middle" dy="-2" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">70</text>
+      <text text-anchor="middle" dy="-2" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">78</text>
       <text text-anchor="middle" dy="16" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#93c5fd">commits/yr</text>
     </g>
 
@@ -33,7 +33,7 @@
       <text x="190" y="150">🐛 Issues</text>
       <text x="440" y="150" text-anchor="end" fill="#93c5fd">0</text>
 
-      <text x="190" y="180">🔥 Streak: 0d current / 6d best</text>
+      <text x="190" y="180">🔥 Streak: 0d current / 7d best</text>
     </g>
   </g>
 </svg>
