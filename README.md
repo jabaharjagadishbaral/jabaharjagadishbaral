@@ -1,13 +1,3 @@
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
-  <img alt="Jabahar Jagadish Baral banner" src="banner.svg?v=1">
-</picture>
-
-<img src="lanyard.svg?v=1" alt="ID badge" width="220"/>
-
 ### 📌 About Me
 🎓 B.Tech CSE student (2023–2027) with hands-on internship experience in Python, Java, and Machine Learning.
 Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — always shipping something new.
