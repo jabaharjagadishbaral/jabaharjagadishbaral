@@ -17,7 +17,18 @@ Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — alway
 ---
 
 ### 📊 GitHub Stats
+<div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api?username=jabaharjagadishbaral&show_icons=true&theme=red&hide_border=true&bg_color=0D0D0D&title_color=DC143C&icon_color=8B0000&text_color=E6E6E6&count_private=true" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=jabaharjagadishbaral&theme=highcontrast&hide_border=true&background=0D0D0D&ring=DC143C&fire=8B0000&currStreakLabel=DC143C" width="49%" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jabaharjagadishbaral&layout=compact&theme=red&hide_border=true&bg_color=0D0D0D&title_color=DC143C&text_color=E6E6E6" width="45%"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=jabaharjagadishbaral&theme=darkhub&no-frame=true&column=4&margin-w=10&margin-h=10" width="80%"/>
+
+</div>
+
+<br/>
 ![GitHub stats](stats.svg?v=1)
 
 ![Top languages](langs.svg?v=1)
