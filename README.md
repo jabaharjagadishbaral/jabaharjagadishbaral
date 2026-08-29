@@ -25,6 +25,10 @@ Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — alway
 <img src="langs.svg?v=1" alt="Top languages" width="48%">
 </div>
 <br>
+<div align="center">
+<img src="trophies.svg?v=1" alt="Trophies">
+</div>
+<br>
 
 ---
 
