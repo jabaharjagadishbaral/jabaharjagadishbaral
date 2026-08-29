@@ -1,13 +1,11 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=2">
-    <img alt="Banner" src="banner.svg?v=2" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
+    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
+    <img alt="Banner" src="banner.svg?v=1" width="100%"/>
   </picture>
-</p>
-
-<p align="center" style="margin-top:-48px;">
-  <img src="lanyard.svg?v=2" alt="ID card" width="150"/>
+<p align="center">
+  <img src="lanyard.svg?v=1" alt="ID card" width="280"/>
 </p>
 
 ### 📌 About Me
