@@ -20,11 +20,19 @@ Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — alway
 
 ### 📊 GitHub Stats
 
-![GitHub stats](stats.svg?v=1)
-
-![Top languages](langs.svg?v=1)
-
-![Trophies](trophies.svg?v=1)
+<div align="center">
+<img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<!-- Replace/add badges to match [YOUR_SKILL_LIST] -->
+</div>
+<br>
+## 📊 GitHub Stats
+<div align="center">
+<img src="stats.svg?v=1" alt="GitHub stats" width="48%">
+<img src="langs.svg?v=1" alt="Top languages" width="48%">
+</div>
+<br>
 
 ---
 
