@@ -5,7 +5,9 @@
     <img alt="Banner" src="banner.svg?v=1" width="100%"/>
   </picture>
 </p>
-
+<p align="center">
+  <img src="lanyard.svg?v=1" alt="ID card" width="280"/>
+</p>
 ### 📌 About Me
 🎓 B.Tech CSE student (2023–2027) with hands-on internship experience in Python, Java, and Machine Learning.
 Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — always shipping something new.
