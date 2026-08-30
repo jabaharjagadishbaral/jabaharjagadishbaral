@@ -29,7 +29,7 @@ Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — alway
 <img src="trophies.svg?v=1" alt="Trophies">
 </div>
 <br>
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:00008B,100:0D0D0D&height=120&section=footer" width="100%"/>
 ---
 
 ### 🐍 Contribution Snake
@@ -41,7 +41,7 @@ Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — alway
     <img alt="github contribution snake" src="https://raw.githubusercontent.com/jabaharjagadishbaral/jabaharjagadishbaral/output/github-contribution-grid-snake.svg?v=1"/>
   </picture>
 </p>
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:00008B,100:0D0D0D&height=120&section=footer" width="100%"/>
 ---
 
 ### 🔗 Connect
