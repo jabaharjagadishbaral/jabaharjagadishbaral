@@ -55,4 +55,4 @@ Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — alway
   <img src="https://komarev.com/ghpvc/?username=jabaharjagadishbaral&style=for-the-badge&color=c04cff" alt="profile views"/>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:8B0000,100:0D0D0D&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:00008B,100:0D0D0D&height=120&section=footer" width="100%"/>
