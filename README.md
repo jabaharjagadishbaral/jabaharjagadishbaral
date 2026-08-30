@@ -29,11 +29,11 @@ Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — alway
 <img src="trophies.svg?v=1" alt="Trophies">
 </div>
 <br>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:00008B,100:0D0D0D&height=120&section=footer" width="100%"/>
+
 ---
 
 ### 🐍 Contribution Snake
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:00008B,100:0D0D0D&height=120&section=header" width="100%"/>
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jabaharjagadishbaral/jabaharjagadishbaral/output/github-contribution-grid-snake-dark.svg?v=1">
@@ -41,11 +41,11 @@ Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — alway
     <img alt="github contribution snake" src="https://raw.githubusercontent.com/jabaharjagadishbaral/jabaharjagadishbaral/output/github-contribution-grid-snake.svg?v=1"/>
   </picture>
 </p>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:00008B,100:0D0D0D&height=120&section=footer" width="100%"/>
+
 ---
 
 ### 🔗 Connect
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:00008B,100:0D0D0D&height=120&section=header" width="100%"/>
+
 <p align="center">
   <a href="https://github.com/jabaharjagadishbaral"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/jabaharjagadishbaral/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
