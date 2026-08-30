@@ -52,5 +52,5 @@ Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — alway
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?[username]=jabaharjagadishbaral&style=for-the-badge&color=c04cff" alt="profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=jabaharjagadishbaral&style=for-the-badge&color=c04cff" alt="profile views"/>
 </p>
