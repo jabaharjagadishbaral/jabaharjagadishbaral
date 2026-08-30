@@ -6,7 +6,7 @@
   <img src="banner.svg?v=1" alt="Jabahar Jagadish Baral header banner">
 </picture>
 
-<img src="lanyard.svg?v=1" alt="Jabahar Jagadish Baral ID badge" width="220">
+<img src="lanyard.svg?v=1" alt="Jabahar Jagadish Baral ID badge" width="250">
 
 </div>
 
