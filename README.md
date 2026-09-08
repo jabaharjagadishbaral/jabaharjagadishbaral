@@ -47,7 +47,7 @@ Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — alway
 ### 🔗 Connect
 
 <p align="center">
-  <a href="https://github.com/jabaharjagadishbaral"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/od13person"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/jabaharjagadishbaral/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
