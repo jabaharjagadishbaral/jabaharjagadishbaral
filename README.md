@@ -12,10 +12,6 @@
 
 <br>
 
-### 📌 About Me
-🎓 B.Tech CSE student (2023–2027) with hands-on internship experience in Python, Java, and Machine Learning.
-Built end-to-end ML pipelines, REST APIs, and full-stack mini-projects — always shipping something new.
-
 ---
 
 ### 📊 GitHub Stats
