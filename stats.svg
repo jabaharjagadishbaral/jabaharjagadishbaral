@@ -33,7 +33,7 @@
       <text x="190" y="150">🐛 Issues</text>
       <text x="440" y="150" text-anchor="end" fill="#93c5fd">0</text>
 
-      <text x="190" y="180">🔥 Streak: 1d current / 25d best</text>
+      <text x="190" y="180">🔥 Streak: 0d current / 25d best</text>
     </g>
   </g>
 </svg>
